@@ -14,5 +14,6 @@ This script automates the process of incrementing the version in your `package.j
 2. Run the script using Node.js:
 
    ```bash
+   npm i auto-version-gitflow --save-dev
    auto-version-gitflow ./package.json
 
