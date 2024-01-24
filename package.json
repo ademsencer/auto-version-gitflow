@@ -1,6 +1,6 @@
 {
   "name": "auto-version-gitflow",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This Node.js script automatically updates the version in your package.json file, commits the change, creates a Git tag for this new version, and pushes both the commit and tags to your remote repository. It's designed to streamline the process of version incrementing and tagging for Node.js projects, making it easier to maintain version control and release management.",
   "main": "index.js",
   "bin": {
