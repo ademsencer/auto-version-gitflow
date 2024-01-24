@@ -14,5 +14,5 @@ This script automates the process of incrementing the version in your `package.j
 2. Run the script using Node.js:
 
    ```bash
-   node version-bump.js
+   auto-version-gitflow ./package.json
 
