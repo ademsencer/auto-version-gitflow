@@ -38,7 +38,7 @@ const run = () => {
 
 // Commit the changes
     try {
-        execSync(`git add ${packageJsonPath}`);
+        execSync(`git add .`);
         execSync(`git commit -m "Version incremented to: ${newVersion}"`);
         console.log(`Commit for version ${newVersion} created successfully.`);
     } catch (error) {
